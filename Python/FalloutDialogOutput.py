@@ -4,7 +4,8 @@ import sys
 
 
 urlHead = "http://fallout.wikia.com"
-mainURL = urlHead+"/wiki/Category:Fallout:_New_Vegas_dialogue_files?page=3"
+mainURL = urlHead+"/wiki/Category:Fallout:_New_Vegas_dialogue_files?page=1"
+outputPath = "/Users/AxlK/Downloads/Fallout NV Texts/"
 
 
 def FindTxtURL(url):
@@ -55,7 +56,7 @@ def ExtractDialogContent(html):
     return retData
 
 
-outputPath = "/home/zkun1983/FalloutTexts/"
+#outputPath = "/home/zkun1983/FalloutTexts/"
 
 count = 0
 #export all 
